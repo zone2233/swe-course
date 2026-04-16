@@ -1,0 +1,40 @@
+Design a simple, clean web app UI for a “Robotics Club Budget & Proposal Generator”.
+
+The app should be minimal, professional, and easy to use. It is for students organizing a robotics club to estimate costs and generate a funding proposal.
+
+Limit the design to 2–3 main screens:
+
+1. Input Screen (Main Screen)
+- Title: Budget Generator
+- Simple form with:
+  - Number of teams (input)
+  - Budget per team (optional input)
+  - Components list (add/remove items with name + cost per item)
+- Button: “Calculate Budget”
+- Button: “Generate Proposal”
+
+2. Results Screen
+- Show:
+  - Total estimated cost
+  - Cost per team
+  - Breakdown of components
+- Clean summary cards or sections
+- Button: “Edit Inputs”
+- Button: “Export / Copy”
+
+3. Proposal Preview Screen (can also be a modal instead of full screen)
+- Auto-generated formatted proposal text:
+  - short description of the club
+  - number of teams
+  - requested budget
+  - justification
+- Button: “Copy Proposal”
+- Button: “Download”
+
+Design style:
+- Minimal and modern
+- Clean spacing, not cluttered
+- Card-based layout
+- Neutral professional colors (suitable for university use)
+- Desktop-first
+- Focus on clarity and usability, not fancy visuals

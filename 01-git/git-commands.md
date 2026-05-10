@@ -89,3 +89,4 @@ First, I modified the README file before creating the new branch and because of 
 
 Second, I switched back to `main` before committing the change on the branch. When I tried to merge the branch, Git showed that everything was already up to date because the branch did not contain a new commit yet. I fixed this by switching back to the feature branch, staging the modified README file with `git add`, and committing it there. After that, I switched back to `main`, merged the branch, and pushed the result to GitHub.
 
+## Time Travel Experiment

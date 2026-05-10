@@ -22,4 +22,4 @@ python3 src/main.py
 
 I chose to do a ToDo app, because it is simple to implement and it is easy to further build improvements like adding file storage or tests. 
 
-Furthermore, a ToDo app is useful for later tasks as well.
+Furthermore, a ToDo app is useful for later tasks as well. For example I think it would be particularly good for refactoring, testing and clean code.

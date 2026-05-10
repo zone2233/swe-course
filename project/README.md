@@ -14,7 +14,9 @@ This is a simple ToDo App in Python, where you can manage tasks.
 
 ## How to Run
 
+```bash
 python3 src/main.py
+```
 
 ## Personal Choice
 

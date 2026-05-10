@@ -65,3 +65,27 @@ git checkout -b improve-readme
 ```
 
 On this branch, I changed the README file. After that, I committed the change:
+
+```bash
+git add .
+git commit -m "Improve project README"
+```
+
+Then I switched back to the main branch:
+
+```bash
+git checkout main
+```
+
+Finally, I merged the branch into main:
+
+```bash
+git merge improve-readme
+```
+
+During this experiment, I encountered two issues:
+
+First, I modified the README file before creating the new branch and because of this, the change was not clearly connected to the branch. I fixed this by creating a new branch anyway and making sure that the README change was committed on that branch. This helped me understand that uncommitted changes can move with me when I switch branches.
+
+Second, I switched back to `main` before committing the change on the branch. When I tried to merge the branch, Git showed that everything was already up to date because the branch did not contain a new commit yet. I fixed this by switching back to the feature branch, staging the modified README file with `git add`, and committing it there. After that, I switched back to `main`, merged the branch, and pushed the result to GitHub.
+

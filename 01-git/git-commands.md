@@ -90,3 +90,29 @@ First, I modified the README file before creating the new branch and because of 
 Second, I switched back to `main` before committing the change on the branch. When I tried to merge the branch, Git showed that everything was already up to date because the branch did not contain a new commit yet. I fixed this by switching back to the feature branch, staging the modified README file with `git add`, and committing it there. After that, I switched back to `main`, merged the branch, and pushed the result to GitHub.
 
 ## Time Travel Experiment
+
+I have also never used time travel so to understand how Git stores previous versions, I looked at older commits:
+
+```bash
+git log --oneline
+```
+
+Then I copied one commit hash and checked it out:
+
+```bash
+git checkout 432d9bb
+```
+
+This showed me an older version of my project. After that, I returned to the current main branch:
+
+```bash
+git checkout main
+```
+
+During this experiment I also encountered one issue:
+
+At first, Git did not allow me to switch to the older commit because I still had uncommitted changes in `01-git/git-commands.md`. Git showed an error message saying that my local changes would be overwritten by checkout.
+
+I fixed this by committing my current documentation changes first.
+
+After the changes were safely committed, I was able to check out the older commit and inspect a previous version of the project. Then I returned to the current version.

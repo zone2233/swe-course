@@ -2,11 +2,11 @@
 
 ## Project
 
-Console ToDo Manager
+Console ToDo App
 
 ## Project Description
 
-Console ToDo Manager is a small Python terminal application that allows a user to create, view, complete, and delete tasks during one program session.
+The console ToDo app is a small Python terminal application that allows a user to create, view, complete, and delete tasks during one program session.
 
 The application uses a simple text menu and stores tasks in a Python list while the program is running.
 
